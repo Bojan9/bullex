@@ -1,0 +1,106 @@
+.wrap {
+  margin: 0 auto; }
+  .wrap--header {
+    height: 1075px;
+    width: 1920px;
+    background-image: url(../images/headerbackground.png); }
+
+.containerHeader {
+  width: 1640px;
+  height: 154px;
+  float: left;
+  margin-left: 140px;
+  margin-top: 108px; }
+
+.logoHeader {
+  width: 177px;
+  height: 155px;
+  float: left;
+  background-image: url(../images/headerlogo.png); }
+
+.navBar {
+  width: 658px;
+  height: 30px;
+  float: left;
+  margin-top: 35px;
+  margin-left: 303px;
+  display: inline-block;
+  list-style-type: none;
+  text-align: center; }
+
+.navBar li {
+  display: inline; }
+
+.navBar a {
+  text-decoration: none;
+  font-family: 'Comfortaa', cursive;
+  font-weight: lighter;
+  color: white;
+  font-size: 22px;
+  display: inline-block;
+  padding: 10px; }
+
+.profileText {
+  width: 120px;
+  height: 22px;
+  float: right;
+  margin-top: 44px;
+  margin-right: 14px; }
+
+.profileText a {
+  text-decoration: none;
+  font-family: 'Comfortaa', cursive;
+  font-weight: lighter;
+  color: white;
+  font-size: 15px; }
+
+.profileImg {
+  width: 74px;
+  height: 74px;
+  float: right;
+  margin-top: 17px;
+  background-image: url(../images/headerslika1.png); }
+
+.containerHeaderTextsmall {
+  width: 470px;
+  height: 94px;
+  float: left;
+  margin-top: 181px;
+  margin-left: 668px;
+  font-family: 'Comfortaa', cursive;
+  font-weight: lighter;
+  font-size: 60px;
+  color: #00ACEC; }
+
+.containerHeaderTextlarge {
+  width: 960px;
+  height: 171px;
+  float: left;
+  margin-left: 480px;
+  font-family: 'Comfortaa', cursive;
+  font-weight: lighter;
+  font-size: 80px;
+  color: #00ACEC; }
+
+.headerFire {
+  width: 40px;
+  height: 66px;
+  float: left;
+  margin-left: 920px;
+  background-image: url(../images/headerslika2.png); }
+
+.headerScroll {
+  width: 30px;
+  height: 50px;
+  float: left;
+  margin-top: 150px;
+  margin-left: 945px;
+  background-image: url(../images/headerslika3.png); }
+
+.headerButton {
+  width: 22px;
+  height: 14px;
+  float: left;
+  margin-top: 13px;
+  margin-left: 948px;
+  background-image: url(../images/headerslika4.png); }
