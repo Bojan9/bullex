@@ -1,0 +1,105 @@
+.body{
+    &--header{
+        width: 730px;
+        height: 110px;
+        margin-top: 50px;
+        margin-left: 522px;
+        float: left;
+    }
+    &--text{
+        width: 1310px;
+        height: 362px;
+        margin-top: 110px;
+        margin-left: 305px;
+        float: left;
+        font-family: 'comfortaa', cursive;
+        font-size: 20px;
+        text-align: center;
+        line-height: 52px;
+    }
+    &--headerImg{
+        width: 90px;
+        height: 90px;
+        background-image: url(../images/body-2.png);
+        margin-top: 93px;
+        margin-left: 615px;
+        float: left;
+    }
+    &--headerSmall{
+        width: 460px;;
+        height: 60px;
+        margin-top: 120px;
+        margin-left: 25px;
+        float: left;
+        font-family: 'comfortaa', cursive;
+        font-size: 45px;
+        font-weight: lighter;
+        color: #686868;
+    }
+    &--container{
+        width: 1640px;
+        height: 100px;
+        background-color: aquamarine;
+        float: left;
+        margin-left: 140px;
+        margin-top: 140px;
+    }
+}
+
+.bitcoinImg{
+    width: 83px;
+    height: 110px;
+    float: left;
+    background-image: url(../images/body-1.png);
+    font-weight: lighter;
+}
+.bitcoinText{
+    width: 600px;
+    height: 80px;
+    margin-left: 46px;
+    margin-top: 25px;
+    float: left;
+    font-family: 'comfortaa', cursive;
+    font-size: 50px;
+    font-weight: lighter;
+    color: #686868;
+}
+.arrow{
+    &--left{
+        width: 30px;
+        height: 49px;
+        float: left;
+        margin-top: 30px;
+        background-image: url(../images/left.png);
+    }
+    &--right{
+        width: 30px;
+        height: 49px;
+        float: right;
+        margin-top: 30px;
+        background-image: url(../images/right.png);
+    }
+}
+.moneyContainer{
+    &--bitcoin{
+        width: 360px;
+        height: 100px;
+        float: left;
+        margin-left: 140px;
+        background-color: royalblue;
+    }
+    &--ripple{
+        width: 360px;
+        height: 100px;
+        float: left;
+        margin-left: 95px;
+        background-color: royalblue;
+    }
+    &--peer{
+        width: 360px;
+        height: 100px;
+        float: left;
+        margin-left: 95px;
+        background-color: royalblue;
+    }
+}

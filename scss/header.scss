@@ -1,9 +1,14 @@
 .wrap{
     margin: 0 auto;
     &--header{
-        height: 1075px;
+        height: 1070px;
         width: 1920px;
         background-image: url(../images/headerbackground.png);
+    }
+    &--body{
+        height: 1190px;
+        width: 1920px;
+        background-color: lightblue;
     }
 }
 
