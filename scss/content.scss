@@ -38,8 +38,7 @@
     }
     &--container{
         width: 1640px;
-        height: 100px;
-        background-color: aquamarine;
+        height: 240px;
         float: left;
         margin-left: 140px;
         margin-top: 140px;
@@ -82,24 +81,314 @@
 }
 .moneyContainer{
     &--bitcoin{
-        width: 360px;
+        width: 400px;
         height: 100px;
         float: left;
-        margin-left: 140px;
-        background-color: royalblue;
+        margin-left: 100px;
     }
     &--ripple{
-        width: 360px;
+        width: 400px;
         height: 100px;
         float: left;
-        margin-left: 95px;
-        background-color: royalblue;
+        margin-left: 90px;
     }
     &--peer{
-        width: 360px;
+        width: 400px;
         height: 100px;
         float: left;
-        margin-left: 95px;
-        background-color: royalblue;
+        margin-left: 90px;
     }
+}
+.moneyImg{
+    margin-top: 5px;
+    width: 100px;
+    height: 90px;
+    float: left;
+}
+
+.moneyText{
+    width: 115px;
+    height: 20px;
+    margin-left: 10px;
+    font-family: 'comfortaa', cursive;
+    font-size: 15px;
+    color: #A5A5A5;
+    font-weight: bold;
+    float: left;
+
+}
+.moneyBuySell{
+    width: 65px;
+    height: 20px;
+    margin-left: 10px;
+    margin-top: 20px;
+    font-family: 'comfortaa', cursive;
+    font-size: 15px;
+    color: #808080;
+    font-weight: bold;
+    float: left;
+}
+.moneyNumbers{
+    width: 70px;
+    height: 20px;
+    margin-top: 20px;
+    font-family: 'comfortaa', cursive;
+    font-size: 15px;
+    color: #808080;
+    font-weight: bold;
+    float: left;
+}
+.moneymoney{
+    float: left;
+    height: 100px;
+    width: 145px;
+}
+.moneypzgreen{
+    float: left;
+    margin-left: 10px;
+    margin-top: 45px;
+    width: 86px;
+    height: 45px;
+    font-family: 'comfortaa', cursive;
+    font-size: 32px;
+    font-weight: bold;
+    color: #55AA55;
+}
+.green1{
+    width: 50px;
+}
+.moneypzred{
+    float: left;
+    margin-left: 10px;
+    margin-top: 45px;
+    width: 86px;
+    height: 45px;
+    font-family: 'comfortaa', cursive;
+    font-size: 32px;
+    font-weight: bold;
+    color: #AA5555;
+}
+.moneyarrow{
+    width: 20px;
+    height: 10px;
+    float: left;
+    margin-top: 55px;
+    margin-left: 20px;
+}
+.moneyAll{
+    margin-top: 160px;
+    width: 120px;
+    height: 35px;
+    border: 1px solid #00ACEC;
+    border-radius: 18px;
+    color: white;
+    font-family: 'comfortaa', cursive;
+    font-size: 20px;
+    background-color: #00ACEC;
+    margin-left: 46%;
+    text-align: center;
+    font-weight: bold;
+    line-height: 2;
+}
+.arrowbluedown{
+    width: 20px;
+    height: 30px;
+    float: left;
+    margin-left: 49%;
+    margin-top: 25px;
+}
+
+.news{
+    width: 1920px;
+    height: 1520px;
+    float: left;
+    background-image: url(../images/newsbg.png);
+    display: block;
+}
+.hnews{
+    margin-top: 270px;
+    margin-left: 40px;
+    width: 710px;
+}
+.inews{
+    margin-top: 240px;
+    margin-left: 700px;
+    background-image: url(../images/consultoria.png);
+}
+.headerblue{
+    width: 275px;
+    height: 60px;
+    float: left;
+    font-family: 'comfortaa', cursive;
+    font-size: 40px;
+    font-weight: bold;
+    color: #00ACEC;
+    margin-left: 135px;
+    margin-top: 65px;
+    line-height: 2;
+}
+.marginblue{
+    margin-left: 880px;
+}
+.video{
+    width: 525px;
+    height: 345px;
+    float: left;
+    background-image: url(../images/Group%2020.png);
+    margin-left: 135px;
+    margin-top: 50px;
+}
+.marginvideo{
+    margin-left: 40px;
+}
+.newsText{
+    width: 485px;
+    height: 345px;
+    float: left;
+    margin-left: 40px;
+    margin-top: 50px;
+    font-family: 'comfortaa', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    color: #A5A5A5;
+    padding-left: 10px;
+    line-height: 55px;
+}
+.tsmall{
+    width: 1090px;
+    height: 170px;
+    margin-left: 120px;
+    line-height: 40px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+.margintop{
+    margin-top: 30px;
+}
+.newsall{
+    width: 120px;
+    height: 35px;
+    float: left;
+    margin-left: 47%;
+    border: 1px solid #00ACEC;
+    border-radius: 18px;
+    color: white;
+    font-family: 'comfortaa', cursive;
+    font-size: 20px;
+    background-color: #00ACEC;
+    text-align: center;
+    font-weight: bold;
+    line-height: 2;
+}
+.margin50{
+    margin-top: 30px;
+}
+.arrowmargin{
+    margin-left: 49.5%;
+}
+.iassets{
+    margin-top: 100px;
+    margin-left: 795px;
+    width: 90px;
+    height: 106px;
+    background-image: url(../images/banco.png);
+}
+.hassets{
+    margin-left: 40px;
+    margin-top: 140px;
+}
+.assets{
+    width: 1920px;
+    height: 980px;
+    float: left;
+    background-image: url(../images/assetsbg.png);
+    background-repeat: no-repeat;
+}
+.assetsTable{
+    width: 1640px;
+    height: 710px;
+    float: left;
+    border: #707070 1px solid;
+    border-radius: 40px;
+    margin-left: 140px;
+    margin-top: 100px;
+    background-color: white;
+}
+.assetsSearch{
+    width: 306px;
+    height: 50px;
+    float: left;
+    margin-top: 70px;
+    margin-left: 35px;
+    border: 1px solid #B9B9B9;
+    border-radius: 26px;
+    text-align: center;
+    font-family: 'comfortaa', cursive;
+    font-size: 20px;
+    font-weight: lighter;
+    color: #B9B9B9;
+}
+.assetsimg{
+    margin-top: 83px;
+    margin-left: -1220px;
+}
+.assetsText{
+    width: 320px;
+    height: 90px;
+    float: left;
+    margin-left: 310px;
+    margin-top: 45px;
+    line-height: 23px;
+    font-family: 'comfortaa', cursive;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    color: #B9B9B9;
+}
+.h1margin{
+    margin-top: 20px;
+}
+.assetsBox{
+    width: 100px;
+    height: 30px;
+    float: left;
+    margin-left: 320px;
+    margin-top: 80px;
+    font-family: 'comfortaa', cursive;
+    font-size: 18px;
+    font-weight: lighter;
+}
+.boxmargin{
+    margin-left: 30px;
+}
+.rectangle{
+    margin-left: 10px;
+}
+
+.tavletable{
+    width: 1510px;
+    height: 480px;
+    float: left;
+    margin-top: 60px;
+    margin-left: 35px;
+}
+.tableth{
+    font-family: 'comfortaa', cursive;
+    font-size: 22px;
+    font-weight: lighter;
+    color: #686868;
+    text-align: center;
+}
+.imgassets{
+    width: 40px;
+}
+.td{
+    text-align: center;
+}
+.tdgreen{
+    color: #54D561;
+}
+.tdred{
+    color: #D55454;
 }
