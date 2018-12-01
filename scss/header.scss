@@ -6,8 +6,13 @@
         background-image: url(../images/headerbackground.png);
     }
     &--body{
-        height: 6000px;
+        height: 4340px;
         width: 1920px;
+    }
+    &--footer{
+        height: 380px;
+        width: 1920px;
+        background-image: url(../images/footer.png);
     }
 }
 
